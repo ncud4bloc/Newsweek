@@ -7,6 +7,7 @@
 #nav_bar {
     height: 60px;
     background-color: #000;
+    border-bottom: 1px solid #fff;
 }
 
 #image1_area {
@@ -17,6 +18,7 @@
     background-image: url(../IMAGES/image1a.jpg);
     background-size: cover;
     background-position: center;
+    border-bottom: 3px solid #f00;
 }
 
 #image2_area {
@@ -129,7 +131,7 @@
     height: 600px;
     background-color: #fff;
     box-sizing: padding-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-top: 25px;
 }
 
@@ -149,6 +151,8 @@
 
 #title1_area {
     height: 254px; /*144px;*/
+    border-bottom: 1px solid #d0d3c7;
+    margin-bottom: 25px;
 }
 
 #title1_hdr {
@@ -205,6 +209,12 @@
     margin: 5px auto 5px auto;
 }
 
+#title3_area {
+    height: 254px; /*144px;*/
+    /*border-bottom: 1px solid #d0d3c7;
+    margin-bottom: 25px;*/
+}
+
 .sub_hdln1 {
     width: 60%;
     color: #000;
@@ -239,6 +249,7 @@
 #logo_small {
     width: 60px;
     height: 60px;
+    border-bottom: 1px solid #fff;
 }
 
 .hdr {
