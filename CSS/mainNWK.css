@@ -1,0 +1,229 @@
+[class*="col-"] {
+    border: 1px solid red;
+    background-color: #c3b5b5;
+    text-align: left;
+}
+
+#nav_bar {
+    height: 60px;
+}
+
+#image1_area {
+    height: 546px;
+}
+
+.image1 {
+    background-image: url(../IMAGES/image1a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image2_area {
+    height: 244px;
+}
+
+.image2 {
+    background-image: url(../IMAGES/image2.jpg);
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image3_area {
+    height: 244px;
+}
+
+.image3 {
+    background-image: url(../IMAGES/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image4 {
+    background-image: url(../IMAGES/image4.jpg);
+    background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image4_area {
+    height: 244px;
+}
+
+.image5 {
+    background-image: url(../IMAGES/image5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image5_area {
+    height: 244px;
+}
+
+.image6 {
+    background-image: url(../IMAGES/image6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image6_area {
+    height: 244px;
+}
+
+.image7 {
+    background-image: url(../IMAGES/image7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image7_area {
+    height: 244px;
+}
+
+#iters_area {
+    height: 1300px; /*946px;*/
+    /*float: right;*/
+}
+
+#hl_area {
+    width: 100%;
+    color: #ff0000;
+    font-size: 1.4em;
+    font-family: Times;
+    font-weight: 700;
+    box-sizing: padding-box;
+    border-bottom: 1px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.u1_li1 {
+    color: #000;
+    font-size: 1.2em;
+    list-style-type: square;
+    border-bottom: 1px solid #ff0000;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#link1_area {
+    width: 100%;
+    color: #f00;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4f3f65;
+    box-sizing: padding-box;
+    border: 1px solid red;
+    text-align: center;
+}
+
+#ad1_area {
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    box-sizing: padding-box;
+    border: 1px solid red;
+    margin-top: 25px;
+}
+
+#usb_ad {
+    position: relative;
+    top: 530px;
+    left: 120px;
+}
+
+#article_area {
+    height: 1300px; /*946px;*/
+}
+
+#article_area2 {
+    /*height: 1300px; /*946px;*/
+}
+
+#title1_area {
+    height: 254px; /*144px;*/
+}
+
+#title1_hdr {
+    font-family: 'Catamaran', sans-serif;
+    color: #ff0000;
+    font-size: 1.4em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+#title2_hdr {
+    font-family: 'Catamaran', sans-serif;
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+#title1_hdln {
+    font-family: 'Catamaran', sans-serif;
+    color: #000;
+    font-size: 2.4em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+#title2_hdln {
+    font-family: 'Catamaran', sans-serif;
+    color: #000;
+    font-size: 2.0em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+#title1_desc {
+    font-family: Times;
+    color: #454040;
+    font-size: 1.9em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+#title2_desc {
+    font-family: Times;
+    color: #454040;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+
+.sub_hdln1 {
+    width: 60%;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px auto 5px auto;
+}
+
+.sub_hdln2 {
+    width: 90%;
+    color: #000;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 20px auto 5px auto;
+}
+
+.sub_hdln11 {
+    list-style-position: inside;
+}
+
+.sub_hdln12 {
+    list-style-position: inside;
+}
