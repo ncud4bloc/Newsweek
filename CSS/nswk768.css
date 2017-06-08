@@ -1,0 +1,38 @@
+.logo {
+    display: inline-block;
+}
+        
+.logo_full {
+    display: none;
+}
+
+#srch_icon {
+    display: none;
+}
+
+.mycol-10pct {
+    width: 59px;
+    height: 60px;
+}
+
+.im23 {
+    float: left;
+    clear: left;
+}
+
+#hl_area {
+    width: 100%;
+}
+
+#iters_area {
+    height: 800px; 
+   /* opacity: 0.1;*/
+}
+
+#article_area {
+    height: 1800px;
+}
+
+.im23 {
+    border-left: 0px solid #d0d3c7;
+}

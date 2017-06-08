@@ -18,3 +18,21 @@
     background-color: #000;
     float: left;
 }
+
+.sub_hdln, .sub_hdln2 {
+    display: none;
+}
+
+#iters_area {
+    background-color: #eaeaea;
+}
+
+#hl_area {
+    text-align: center;
+}
+
+.u1_li1 {
+    list-style-position: inside;
+    text-align: center;
+    margin-left: -45px;
+}
