@@ -1,0 +1,20 @@
+.logo {
+    display: none;
+}
+        
+.logo_full {
+    display: inline-block;
+}
+
+#logo_big {
+    width: 200px;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+}
+
+.mycol-10pct {
+    width: 20%;
+    height: 60px;
+    background-color: #000;
+    float: left;
+}

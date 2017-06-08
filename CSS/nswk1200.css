@@ -1,0 +1,14 @@
+.hdr, .rt_clicks, #position_icon {
+    display: none;
+}
+
+#lines_icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#lines_icon, #srch_icon {
+    width: 50px;
+    padding-left: 20px;
+    border-left: 1px solid #c3b5b5;
+}

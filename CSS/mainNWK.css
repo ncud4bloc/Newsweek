@@ -1,3 +1,14 @@
+/* Begin Modifications to Bootstrap: 
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  End Modifications to Bootstrap:  */
+
 [class*="col-"] {
     /*border: 1px solid red;*/
     background-color: #fff;
@@ -142,11 +153,13 @@
 }
 
 #article_area {
-    height: 1300px; /*946px;*/
+    height: 1350px; /*946px;*/
 }
 
 #article_area2 {
     /*height: 1300px; /*946px;*/
+    /*padding-top: 20px;*/
+    border-top: 1px solid #d0d3c7;
 }
 
 #title1_area {
@@ -164,6 +177,12 @@
     margin: 5px auto 5px auto;
 }
 
+#title2_area {
+    height: 254px; /*144px;*/
+    /*border-bottom: 1px solid #d0d3c7;*/
+    margin-bottom: 25px;
+}
+
 #title2_hdr {
     font-family: 'Catamaran', sans-serif;
     color: #ff0000;
@@ -171,6 +190,7 @@
     font-weight: 200;
     text-align: center;
     margin: 5px auto 5px auto;
+    word-wrap: break-word;
 }
 
 #title1_hdln {
@@ -189,6 +209,7 @@
     font-weight: 200;
     text-align: center;
     margin: 5px auto 5px auto;
+    word-wrap: break-word;
 }
 
 #title1_desc {
@@ -207,6 +228,7 @@
     font-weight: 200;
     text-align: center;
     margin: 5px auto 5px auto;
+    word-wrap: break-word;
 }
 
 #title3_area {
@@ -244,6 +266,10 @@
     height: 60px;
     background-color: #000;
     float: left
+}
+
+.logo_full {
+    display: none;
 }
 
 #logo_small {
@@ -331,6 +357,12 @@
     margin-right: 25px;
 }
 
+#lines_icon {
+    display: none;
+    padding-top: 15px;
+    margin-right: 25px;
+}
+
 .scaled2 {
     width: 100%;
 }
@@ -342,4 +374,13 @@
 
 #ylw {
     color: #ecff04;
+}
+
+#img4, #img5, #img6 {
+    padding-top: 20px;
+    border-right: 1px solid #d0d3c7;
+}
+
+#img7 {
+    padding-top: 20px;
 }

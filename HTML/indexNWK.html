@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Neil's Newsweek Clone</title>
     <link href="../CSS/normalize.css" type="text/css" rel="stylesheet" />
-	<link href="../CSS/mainNWK.css" type="text/css" rel="stylesheet" />    
+	<!--<link href="../CSS/mainNWK.css" type="text/css" rel="stylesheet" />-->   
     <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
-    <link href="../../../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">   
+    <link href="../../../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../CSS/mainNWK.css" type="text/css" rel="stylesheet" /> 
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:900|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="(max-width: 1200px)" href="../CSS/nswk1200.css" />
+    <link rel="stylesheet" type="text/css" media="(max-width: 992px)" href="../CSS/nswk992.css" />
   </head>
   <body>
     <div class="col-md-12 col-lg-12" id="nav_bar">      
         <div class="mycol-10pct" id="logo_box">
             <div class="logo">
                 <img id="logo_small" src="../IMAGES/sml_logoC.jpg" />
+            </div>
+            <div class="logo_full">
+                <img id="logo_big" src="../IMAGES/big_logo.png" />
             </div>
         </div>
         <div class="hdr">
@@ -31,6 +37,9 @@
                 </ul>
         </div>
         <div class="hdr2">
+                <div class="icons2" id="lines_icon">
+                    <img class="scaled2" src="../IMAGES/lines.png" />
+                </div>
                 <ul class="rt_clicks">
                     <li class="clr3">Sign In</li>
                 </ul>
@@ -69,7 +78,7 @@
     <div class="col-md-6 col-lg-6">
         <div class="image2 col-md-12 col-lg-12" id="image2_area">
         </div>
-        <div class="col-md-12 col-lg-12" id="title1_area">
+        <div class="col-md-12 col-lg-12" id="title2_area">
             <div id="title2_hdr">
                 U.S.
             </div>
@@ -90,12 +99,12 @@
     <div class="col-md-6 col-lg-6">
         <div class="image3 col-md-12 col-lg-12" id="image3_area">
         </div>
-        <div class="col-md-12 col-lg-12" id="title1_area">
+        <div class="col-md-12 col-lg-12" id="title2_area">
             <div id="title2_hdr">
                 Europe
             </div>
             <div id="title2_hdln">
-                Refugees Welcomed to England 
+                Two New Britons! 
             </div>
             <div id="title2_desc">
                 Syrians Ima Gonak-Ilya and Bowbef Oral-Lah Look Forward
@@ -144,7 +153,7 @@
       </div>
     </div>
     <article class="col-md-12 col-lg-12" id="article_area2">   
-        <div class="col-md-3 col-lg-3">
+        <div class="col-md-3 col-lg-3" id="img4">
             <div class="image4 col-md-12 col-lg-12" id="image4_area">
             </div>
             <div class="col-md-12 col-lg-12" id="title3_area">
@@ -160,7 +169,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-lg-3">
+        <div class="col-md-3 col-lg-3" id="img5">
             <div class="image5 col-md-12 col-lg-12" id="image5_area">
             </div>
             <div class="col-md-12 col-lg-12" id="title3_area">
@@ -176,7 +185,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-lg-3">    
+        <div class="col-md-3 col-lg-3" id="img6">    
             <div class="image6 col-md-12 col-lg-12" id="image6_area">
             </div>
             <div class="col-md-12 col-lg-12" id="title3_area">
@@ -192,7 +201,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-lg-3">
+        <div class="col-md-3 col-lg-3" id="img7">
             <div class="image7 col-md-12 col-lg-12" id="image7_area">
             </div>
             <div class="col-md-12 col-lg-12" id="title3_area">
