@@ -9,6 +9,10 @@
 
 /*  End Modifications to Bootstrap:  */
 
+body {
+    min-width: 534px;
+}
+
 [class*="col-"] {
     /*border: 1px solid red;*/
     background-color: #fff;
@@ -17,8 +21,13 @@
 
 #nav_bar {
     height: 60px;
+    padding-left: 0px;
     background-color: #000;
     border-bottom: 1px solid #fff;
+}
+
+#logo_box {
+    border-bottom: 1px solid #f000;
 }
 
 #image1_area {
@@ -163,6 +172,7 @@
 }
 
 #article_area {
+    padding-left: 0px;
     height: 1350px; /*946px;*/
 }
 
@@ -273,9 +283,13 @@
 
 .mycol-10pct {
     width: 5%;
-    height: 60px;
+    height: 59px;
     background-color: #000;
     float: left
+}
+
+.logo {
+    border-bottom: 1px solid #f000;
 }
 
 .logo_full {
